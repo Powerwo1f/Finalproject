@@ -1,0 +1,29 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "final project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "webpack --mode production ./js/script.js --output ./build/index.js --watch",
+    "dev": "webpack --mode development ./js/script.js --output ./build/index.js --watch"
+  },
+  "keywords": [
+    "test",
+    "npm"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^3.6.0",
+    "file-loader": "^6.0.0",
+    "loader": "^2.1.1",
+    "style": "0.0.3",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-loader": "^8.1.0"
+  }
+}
