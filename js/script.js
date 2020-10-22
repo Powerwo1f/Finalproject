@@ -11,5 +11,4 @@ elem.style = `
 var z = document.createElement('p'); // is a node
 z.innerHTML = 'test satu dua tiga';
 
-document.body.appendChild(elem)
-elem.appendChild(z)
+document.body.appendChild(z)
